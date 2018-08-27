@@ -18,6 +18,7 @@ Run:
 
 - Delays are set, but are arbitrary. They won't work on slower connections, for instance.
 - The code is dirty. It should be refactored in the future.
+- Only works on Dutch Facebook, as it looks for the text "Uitnodigen" (Invite).
 
 ## LICENSE
 
