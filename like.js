@@ -115,14 +115,14 @@ function delay(timeout) {
         });
     };
     await scroll();
-    await delay(2000);
+    await delay(5000);
     await scroll();
-    await delay(2000);
+    await delay(5000);
     await scroll();
-    await delay(2000);
+    await delay(5000);
     await scroll();
     await scroll();
-    await delay(4000);
+    await delay(5000);
     await page.evaluate(jsExecute);
     await delay(20000);
     await browser.close();
